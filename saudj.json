@@ -1,0 +1,31 @@
+{'type': 'block_actions', 'user': {'id': 'U04K1TZ7YES', 'username': 'miglesias', 'name': 'miglesias', 'team_id': 'T04KB0GDPRA'
+    }, 'api_app_id': 'A04KU93F63C', 'token': 'YFfjjRjHiOBKadUzZDFM8UIM', 'container': {'type': 'message', 'message_ts': '1674661651.808769', 'channel_id': 'D04KWP8B3SQ', 'is_ephemeral': False
+    }, 'trigger_id': '4710033763841.4657016465860.062a5062653f69ece15d7aa43506027f', 'team': {'id': 'T04KB0GDPRA', 'domain': 'botalmuerzo'
+    }, 'enterprise': None, 'is_enterprise_install': False, 'channel': {'id': 'D04KWP8B3SQ', 'name': 'directmessage'
+    }, 'message': {'bot_id': 'B04L6U66N9X', 'type': 'message', 'text': 'No se puede mostrar este contenido.', 'user': 'U04KRB5FEBF', 'ts': '1674661651.808769', 'app_id': 'A04KU93F63C', 'blocks': [
+            {'type': 'section', 'block_id': '+eR0X', 'text': {'type': 'mrkdwn', 'text': 'Bienvenido al canal de Almuerzos! \n\n*Seré tu asistente diario a la hora de pedir comida!* :pig:\nPara eso me gustaria saber tus preferencias!', 'verbatim': False
+                }
+            },
+            {'type': 'divider', 'block_id': 'QNo'
+            },
+            {'type': 'input', 'block_id': 'R0+IR', 'label': {'type': 'plain_text', 'text': 'Ingresa tu nombre, por favor.', 'emoji': True
+                }, 'optional': False, 'dispatch_action': False, 'element': {'type': 'plain_text_input', 'action_id': 'plain_text_input-action', 'dispatch_action_config': {'trigger_actions_on': ['on_enter_pressed'
+                        ]
+                    }
+                }
+            },
+            {'type': 'actions', 'block_id': '0gJs', 'elements': [
+                    {'type': 'button', 'action_id': 'setName', 'text': {'type': 'plain_text', 'text': 'Guardar', 'emoji': True
+                        }, 'style': 'primary', 'value': 'click_me_123'
+                    }
+                ]
+            },
+            {'type': 'section', 'block_id': '9zo', 'text': {'type': 'mrkdwn', 'text': ':white_large_square: *Reacciona a este mensaje si eres vegetariano y lo tendre en cuenta dia a dia!*', 'verbatim': False
+                }
+            }
+        ], 'team': 'T04KB0GDPRA'
+    }, 'state': {'values': {'R0+IR': {'plain_text_input-action': {'type': 'plain_text_input', 'value': 'Agustina Iglesias'
+                }
+            }
+        }
+    }, 'response_url': 'https: //hooks.slack.com/actions/T04KB0GDPRA/4697278303923/YZ9XezhWvFDAb8V2EuMABPxQ', 'actions': [{'action_id': 'setName', 'block_id': '0gJs', 'text': {'type': 'plain_text', 'text': 'Guardar', 'emoji': True}, 'value': 'click_me_123', 'style': 'primary', 'type': 'button', 'action_ts': '1674662149.900296'
